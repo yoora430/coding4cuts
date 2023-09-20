@@ -7,8 +7,9 @@
     <style>
         /* 이서윤체 폰트 적용을 위한 코드 */
         @font-face {
-            font-family: 'DOSPilgiMedium';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSPilgiMedium.woff2') format('woff2');
+            font-family: "LeeSeoyun";
+            src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+            format("woff");
             font-weight: normal;
             font-style: normal;
         }
@@ -18,7 +19,7 @@
                 margin: 0;
                 display: flex;
                 justify-content: center;
-                background-image: url("./background.png");
+                background-image: url("./background.jpeg");
             }
 
             .container {
@@ -77,8 +78,9 @@
             }
 
             .photo_description {
-                color: rgb(0, 0, 0);
+                color: black;
                 background-color: #ffffca;
+                
 
                 width: fit-content;
                 padding: 0 20px;
@@ -155,7 +157,7 @@
             onmouseout="hideText(1)"
             onclick="alertText(1)"
             > 
-                <span id="desc1" class="photo_description">
+                <span id="desc1" class="photo_description" style="text-align: center;">
                     내 생일파티에 너만 못 온 그날
                 </span>
             </div>
@@ -164,7 +166,7 @@
             onmouseout="hideText(2)"
             onclick="alertText(2)"
             > 
-                <span id="desc2" class="photo_description">
+                <span id="desc2" class="photo_description" style="text-align: center;">
                     혜진이가 엄청 혼났던 그날
                 </span>
              </div>
@@ -173,13 +175,13 @@
             onmouseout="hideText(3)"
             onclick="alertText(3)"
             > 
-                <span id="desc3" class="photo_description">
+                <span id="desc3" class="photo_description" style="text-align: center;">
                     지원이가 여친이랑 헤어진 그날
                 </span>
             </div>
             <div class="photo-frame">
                 <iframe 
-                    src="https://www.youtube.com/embed/jOTfBlKSQYY?si=n0I-BUkMNYmHEoxD&amp;start=57" 
+                    src="https://www.youtube.com/embed/jOTfBlKSQYY?si=n0I-BUkMNYmHEoxD&amp;start=55" 
                     frameborder="0" 
                     class="video"
                 ></iframe>
